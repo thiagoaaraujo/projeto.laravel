@@ -17,34 +17,26 @@ Route::get('/', function () {
     return view('site.home');
 }) ->name('site.home');
 
-Route::get('/home', function () {
-    return view('home');
-})->name('site.home');
-
 Route::get('/quemSomos', function () {
-    return view('quemSomos');
+    return view('site.quemSomos');
 })->name('site.quemSomos');
 
 Route::get('/servicos', function () {
-    return view('servicos');
+    return view('site.servicos');
 })->name('site.servicos');
 
 Route::get('/servicoOne', function () {
-    return view('servicoOne');
+    return view('site.servicoOne');
 })->name('site.servicoOne');
 
 Route::get('/servicoTwo', function () {
-    return view('servicoTwo');
+    return view('site.servicoTwo');
 })->name('site.servicoTwo');
 
-Route::get('/servicoThree', function () {
-    return view('servicoThree');
-})->name('site.servicoThree');
-
 Route::get('/contato', function () {
-    return view('contato');
-})->name('site.contato');
+    return view('site.contact');
+})->name('site.contact');
 
 Route::get('/adminSite', function () {
-    return view('adminSite');
+    return view('site.adminSite');
 })->name('site.adminSite');
