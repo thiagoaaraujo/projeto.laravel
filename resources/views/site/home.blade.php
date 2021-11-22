@@ -14,6 +14,8 @@
 
         <div class="container">
           <div class="carousel-caption text-start">
+          <img src="/img/carrosel2.jpg" alt=""/>
+
             <h1>Example headline.</h1>
 
             @if(date('H') >= 0 && date('H') <= 12)
@@ -23,7 +25,7 @@
             @else
               <p>Bom noite!</p>
             @endif
-
+            
             <p>Some representative placeholder content for the first slide of the carousel.</p>
             <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
           </div>
@@ -35,6 +37,7 @@
         <div class="container">
           <div class="carousel-caption">
             <h1>Another example headline.</h1>
+            <img src="/img/carrosel3.png" alt=""/>
             <p>Some representative placeholder content for the second slide of the carousel.</p>
             <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
           </div>
@@ -46,6 +49,7 @@
         <div class="container">
           <div class="carousel-caption text-end">
             <h1>One more for good measure.</h1>
+            <img src="/img/download.png" alt=""/>
             <p>Some representative placeholder content for the third slide of this carousel.</p>
             <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
           </div>
