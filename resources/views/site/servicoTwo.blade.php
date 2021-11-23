@@ -6,29 +6,34 @@
     <table class="table">
     <thead>
         <tr>
-        <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
+        <th scope="col">Número da Família</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Telefone</th>
+        <th scope="col">Endereço</th>
+        <th scope="col">Estratificação de Risco</th>
         </tr>
     </thead>
     <tbody>
         <tr>
         <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
+        <td>Mark Anthony Rufallo Smith</td>
+        <td>99667-4258</td>
+        <td>R. Vereador Alcino Ferreira, 150</td>
+        <td>R1</td>
         </tr>
         <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
+        <th scope="row">1</th>
+        <td>Mark Anthony Rufallo Smith</td>
+        <td>99667-4258</td>
+        <td>R. Vereador Alcino Ferreira, 150</td>
+        <td>R1</td>
         </tr>
         <tr>
-        <th scope="row">3</th>
-        <td colspan="2">Larry the Bird</td>
-        <td>@twitter</td>
+        <th scope="row">1</th>
+        <td>Mark Anthony Rufallo Smith</td>
+        <td>99667-4258</td>
+        <td>R. Vereador Alcino Ferreira, 150</td>
+        <td>R1</td>
         </tr>
     </tbody>
     </table>
