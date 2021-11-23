@@ -4,46 +4,42 @@
 
 <form class="row g-3 py-5 mx-5">
   <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Email</label>
+    <label for="inputEmail4" class="form-label">Nome</label>
     <input type="email" class="form-control" id="inputEmail4">
   </div>
   <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Password</label>
+    <label for="inputPassword4" class="form-label">Número da Ficha</label>
     <input type="password" class="form-control" id="inputPassword4">
   </div>
   <div class="col-12">
-    <label for="inputAddress" class="form-label">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    <label for="inputAddress" class="form-label">Telefone</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="">
   </div>
   <div class="col-12">
-    <label for="inputAddress2" class="form-label">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    <label for="inputAddress2" class="form-label">Telefone Celular</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="">
   </div>
   <div class="col-md-6">
-    <label for="inputCity" class="form-label">City</label>
+    <label for="inputCity" class="form-label">Endereço</label>
     <input type="text" class="form-control" id="inputCity">
   </div>
   <div class="col-md-4">
-    <label for="inputState" class="form-label">State</label>
+    <label for="inputState" class="form-label">Comorbidade</label>
     <select id="inputState" class="form-select">
-      <option selected>Choose...</option>
-      <option>...</option>
+      <option selected>Selecione...</option>
+      <option>Hipertensão</option>
+      <option>Diabetes</option>
+      <option>Doença Renal</option>
+      <option>Doença Mental</option>
+      <option>Cardiopata</option>
     </select>
   </div>
   <div class="col-md-2">
-    <label for="inputZip" class="form-label">Zip</label>
+    <label for="inputZip" class="form-label">Estratificação de Risco</label>
     <input type="text" class="form-control" id="inputZip">
   </div>
   <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Check me out
-      </label>
-    </div>
-  </div>
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Sign in</button>
+    <button type="submit" class="btn btn-primary">Gravar</button>
   </div>
 </form>
 
