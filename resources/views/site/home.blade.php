@@ -10,14 +10,8 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
         <div class="container">
-          <div class="carousel-caption text-start">
-          <img src="/img/carrosel2.jpg" alt=""/>
-
-            <h1>Example headline.</h1>
-
+<!--
             @if(date('H') >= 0 && date('H') <= 12)
               <p>Bom dia!</p>
               @elseif(date('H') >= 13 && date('H') <= 18)
@@ -25,34 +19,18 @@
             @else
               <p>Bom noite!</p>
             @endif
-            
-            <p>Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-          </div>
+-->
+              <img src="/img/carroselImg1.jpg" alt="" width="1400" height="500"/>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
         <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <img src="/img/carrosel3.png" alt=""/>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-          </div>
+            <img src="/img/carroselImg2.jpg" alt="" width="1300" height="600"/>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
         <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <img src="/img/download.png" alt=""/>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-          </div>
+            <img src="/img/carroselImg3.jpg" alt=""width="1300" height="500"/>
         </div>
       </div>
     </div>
@@ -76,25 +54,22 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+      <img src="/img/round1.png" width="200" height="200"/>
 
-        <h2>Heading</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <h2>Alimentação Saudável</h2>
+        <p>Para que uma alimentação seja saudável, é importante ter variedade, equilíbrio, controle de quantidade (comer o que lhe é adequado) e qualidade dos alimentos. Ou seja: conhecer a procedência dos ingredientes é uma das formas de conseguir uma alimentação saudável.</p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+      <img src="/img/round2.png" width="200" height="200"/>
 
-        <h2>Heading</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <h2>Saúde da Mulher</h2>
+        <p> Cuidados com a saúde íntima e a realização de exames preventivos, estão entre as principais dicas para a manutenção de uma vida saudável e, consequentemente, para o aumento da longevidade feminina.</p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+      <img src="/img/round3.png" width="200" height="200"/>
 
-        <h2>Heading</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <h2>Saúde do Homem</h2>
+        <p>Novembro é o mês de conscientização sobre a saúde integral do homem. Além dos alertas de prevenção e diagnóstico precoce do câncer de próstata, é reforçada a importância do acesso da população masculina a cuidados com saúde mental, doenças crônicas, doenças sexualmente transmissíveis, além de prevenção a fatores de risco.</p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
@@ -105,11 +80,11 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        <h2 class="featurette-heading">Como combater a dengue. <span class="text-muted">Dengue mata!!</span></h2>
+        <p class="lead">A melhor forma de prevenção da dengue é evitar a proliferação do mosquito Aedes Aegypti, eliminando água armazenada que podem se tornar possíveis criadouros, como em vasos de plantas, lagões de água, pneus, garrafas pláticas, piscinas sem uso e sem manutenção, e até mesmo em recipientes pequenos, como tampas de garrafas.</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      <img src="/img/box2.png" width="500" height="500"/>
 
       </div>
     </div>
@@ -118,11 +93,11 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        <h2 class="featurette-heading">Importância e benefícios da vacinação. <span class="text-muted">Vacinas de campanha e rotina.</span></h2>
+        <p class="lead">A vacinação é a forma mais eficaz e segura de se adquirir proteção contra uma doença infecciosa. A vacinação elimina ou reduz drasticamente o risco de adoecimento ou de manifestações graves, que podem levar à internação e até mesmo ao óbito. Por ano, a vacinação evita de dois a três milhões de mortes, segundo a Organização Mundial da Saúde (OMS).</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      <img src="/img/box3.jpg" width="500" height="500"/>
 
       </div>
     </div>
@@ -131,11 +106,11 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        <h2 class="featurette-heading">Posto de saúde comunitário: <span class="text-muted">Entenda como funciona.</span></h2>
+        <p class="lead">As Unidades Básicas de Saúde (UBS) são a porta de entrada preferencial do Sistema Único de Saúde (SUS). O objetivo desses postos é atender até 80% dos problemas de saúde da população, sem que haja a necessidade de encaminhamento para outros serviços, como emergências e hospitais.</br>O médico de família tem uma formação ampla e integrada, que prepara o médico para fazer o atendimento de crianças, adolescentes, jovens, adultos e idosos, homens e mulheres, sendo capaz de resolver cerca de 80% dos motivos que levam as pessoas a procurar um médico. </p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      <img src="/img/box5.jpg" width="500" height="500"/>
 
       </div>
     </div>
