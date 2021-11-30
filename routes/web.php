@@ -40,3 +40,6 @@ Route::get('/contato', function () {
 Route::get('/adminSite', function () {
     return view('site.adminSite');
 })->name('site.adminSite');
+
+
+
